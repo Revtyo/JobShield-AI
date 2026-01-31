@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body style="width: 320px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 15px; background: #fdfdfd;">
+  
+  <h2 style="color: #2c3e50; margin: 0 0 5px 0; font-size: 20px;">JobShield AI</h2>
+  <p id="scrapeStatus" style="font-size: 11px; color: #7f8c8d; margin-bottom: 15px;">Scanning page for job details...</p>
+
+  <div style="background: #fff; padding: 12px; border: 1px dashed #3498db; border-radius: 8px; margin-bottom: 15px;">
+    <label style="font-size: 13px; font-weight: bold; color: #34495e; display: block; margin-bottom: 8px;">Upload Your Resume (PDF)</label>
+    <input type="file" id="resumeFile" accept=".pdf" style="font-size: 12px; width: 100%;">
+  </div>
+  
+  <button id="analyzeBtn" style="width: 100%; padding: 12px; background: #3498db; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; transition: background 0.3s;">
+    Analyze Match Strength
+  </button>
+
+  <div id="results" style="margin-top: 15px; display: none; padding: 12px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+    <div id="strength" style="font-size: 22px; font-weight: bold; text-align: center; margin-bottom: 10px;"></div>
+    
+    <hr style="border: 0; border-top: 1px solid #eee; margin: 10px 0;">
+    
+    <div id="airisk" style="font-size: 13px; color: #2c3e50; margin-bottom: 6px;"></div>
+    <div id="atsStatus" style="font-size: 13px; color: #2c3e50; margin-bottom: 6px;"></div>
+    
+    <div id="keywordsArea" style="margin-top: 10px; border-top: 1px solid #eee; padding-top: 10px;">
+      <label style="font-size: 12px; font-weight: bold; color: #c0392b;">Universal Skill Gaps:</label>
+      <div id="missingKeywords" style="font-size: 12px; color: #34495e; margin-top: 4px; line-height: 1.4;"></div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
