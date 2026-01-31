@@ -1,4 +1,4 @@
-****JobShield AI**
+JobShield AI
 
 A Universal Chrome Extension for Intelligent Resume-to-Job Alignment.
 
@@ -29,7 +29,7 @@ PDF Processing: PyMuPDF (Fitz).
 
 Ensure you have Conda or Python 3.10+ installed.
 
-**Bash
+Bash
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/JobShield-AI.git
 cd JobShield-AI/backend
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt'); nltk.download('punkt_tab')"
 
 # Start the server
-uvicorn main:app --host 127.0.0.1 --port 8000 --reload**
+uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 
 
 2. Chrome Extension Setup
@@ -80,4 +80,3 @@ The Brain (FastAPI Server): Processes PDF text and runs multiple AI inference mo
 
 📝 License
 Distributed under the MIT License.
-**
