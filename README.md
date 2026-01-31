@@ -1,4 +1,4 @@
-**JobShield AI**
+****JobShield AI**
 
 A Universal Chrome Extension for Intelligent Resume-to-Job Alignment.
 
@@ -80,3 +80,4 @@ The Brain (FastAPI Server): Processes PDF text and runs multiple AI inference mo
 
 📝 License
 Distributed under the MIT License.
+**
